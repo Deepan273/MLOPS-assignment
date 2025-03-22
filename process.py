@@ -29,3 +29,4 @@ train_df.to_csv(r"D:\MLOPS ASS=1\train.csv, index=False")
 test_df = pd.DataFrame(X_test, columns=X.columns)
 test_df['left'] = y_test.values
 test_df.to_csv(r"D:\MLOPS ASS=1\test.csv, index=False")
+print('deepan is aplay boy')
